@@ -38,6 +38,12 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 
+	Sport.prefork do
+		require 'simplecov'
+		require "simplecov_rcov"
+		SimpleCov.formatter = SimpleCov::Formatter::RcovFormatter
+	end
+
 # The settings below are suggested to provide a good initial experience
 # with RSpec, but feel free to customize to your heart's content.
 =begin
