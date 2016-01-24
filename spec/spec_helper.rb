@@ -14,7 +14,8 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-
+ENV["RAILS_ENV"] ||= 'test'
+puts ENV["RAILS_ENV"]
 require 'simplecov'
 SimpleCov.start
 RSpec.configure do |config|

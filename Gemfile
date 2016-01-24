@@ -27,10 +27,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'rspec-rails'
-gem "simplecov"
-gem "simplecov-rcov"
-gem "ci_reporter"
-gem "ci_reporter_rspec"
+gem 'simplecov'
+gem 'simplecov-rcov'
+gem 'ci_reporter'
+gem 'ci_reporter_rspec'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
